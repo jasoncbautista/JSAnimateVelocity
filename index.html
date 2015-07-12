@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="velocity.js"></script>
+
+    <style>
+
+        #no{
+            width: 300px;
+            height: 1000px;
+            background: yellow;
+
+        }
+        #yes{
+            width: 300px;
+            height: 1000px;
+            background: cyan;
+
+        }
+
+    </style>
+
+    <script>
+
+        $(document).ready(function(){
+            console.log("hi");
+
+
+            $("#cool").velocity("scroll", 1000);
+
+
+        });
+
+    </script>
+
+
+</head>
+<body>
+    
+
+    <div id="yes">yes</div>
+    <div id="no">no</div>
+    <div id="cool">cool </div>
+</body>
+</html>
